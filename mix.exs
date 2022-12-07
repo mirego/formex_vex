@@ -5,7 +5,7 @@ defmodule Formex.Validator.Vex.Mixfile do
     [
       app: :formex_vex,
       version: "0.1.1",
-      elixir: "~> 1.14",
+      elixir: "~> 1.13",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps(),
