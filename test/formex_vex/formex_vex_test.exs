@@ -2,9 +2,6 @@ defmodule Formex.Validator.Vex.Test.UserType do
   use Formex.Type
 
   def build_form(form) do
-    # |> add(:age, validation: [
-    #   presence: :true
-    # ])
     form
     |> add(
       :first_name,
