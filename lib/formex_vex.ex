@@ -4,17 +4,6 @@ defmodule Formex.Validator.Vex do
 
   @spec validate(Form.t()) :: Form.t()
   def validate(form) do
-    # errors_struct = if form.type.validate_whole_struct? do
-    #   form.new_struct
-    #   |> Vex.errors
-    #   |> Enum.reduce([], fn error ->
-    #     IO.inspect error
-
-    #   end)
-    # else
-    #   []
-    # end
-
     errors_type =
       form
       |> Form.get_fields_validatable()
