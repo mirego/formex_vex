@@ -3,7 +3,7 @@ defmodule Formex.Validator.Vex.TestErrorHelpers do
   Conveniences for translating and building error messages.
   """
 
-  # use Phoenix.HTML
+  # use PhoenixHTMLHelpers
 
   @doc """
   Translates an error message using gettext.
